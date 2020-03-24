@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="match_result_action"
+        model="ir.actions.act_window">
+        <field name="name">Match result</field>
+        <field name="target">current</field>
+        <field name="res_model">match.result</field>
+        <field name="limit">100</field>
+        <field name="auto_search"
+            eval="True" />
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,m2o_matrix</field>
+    </record>
+
+</odoo>

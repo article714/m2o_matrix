@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_end"
+        inherit_id="web.assets_backend">
+        <xpath expr="."
+            position="inside">
+            <script type="text/javascript"
+                src="/m2o_matrix/static/src/js/m2o_matrix_view.js" />
+            <script type="text/javascript"
+                src="/m2o_matrix/static/src/js/m2o_matrix_model.js" />
+            <script type="text/javascript"
+                src="/m2o_matrix/static/src/js/m2o_matrix_controller.js" />
+            <script type="text/javascript"
+                src="/m2o_matrix/static/src/js/m2o_matrix_renderer.js" />
+        </xpath>
+    </template>
+</odoo>

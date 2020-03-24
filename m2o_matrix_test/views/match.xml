@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="match_result_m2o_matrix"
+        model="ir.ui.view">
+        <field name="name">Match result</field>
+        <field name="model">match.result</field>
+        <field name="arch"
+            type="xml">
+            <m2o_matrix row="joueur_1"
+                col="joueur_2"
+                cell="resultat">
+                <field name="joueur_1" />
+                <field name="joueur_2" />
+                <field name="resultat" />
+            </m2o_matrix>
+        </field>
+    </record>
+</odoo>

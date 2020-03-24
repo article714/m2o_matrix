@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Base menu -->
+    <menuitem id="match_result_base_menu" 
+        name="Match result" 
+        sequence="10" />
+
+    <menuitem id="match_result_menu" 
+        parent="match_result_base_menu" 
+        name="Match result" 
+        sequence="30" 
+        action="match_result_action" />
+
+</odoo>

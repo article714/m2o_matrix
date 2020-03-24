@@ -1,0 +1,15 @@
+{
+    "name": "m2o_matrix",
+    "version": "12.0.0.0.1",
+    "category": "View type",
+    "author": "Article714",
+    "license": "LGPL-3",
+    "website": "https://www.article714.org",
+    "summary": """ """,
+    "depends": ["base", "web"],
+    "data": ["views/templates.xml",],
+    "qweb": ["static/src/xml/m2o_matrix.xml"],
+    "installable": True,
+    "images": [],
+    "application": True,
+}
